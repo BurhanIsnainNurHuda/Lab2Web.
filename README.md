@@ -14,7 +14,7 @@ Repositori ini adalah hasil praktikum Pemrograman Web 1 pada pertemuan Lab2Web. 
 Di dalamnya terdapat file:
  `index.html` → struktur HTML
  `style.css` → styling CSS
-Screenshot hasil website
+dan Screenshot hasil website
 
 # Jawaban Pertanyaan & Tugas
 
