@@ -43,3 +43,12 @@ Urutan prioritas: Inline CSS > Internal CSS > External CSS
 
 Artinya jika ada style yang sama, inline CSS akan menang.
 Contoh:
+
+    <style>
+    p { color: blue; }  /* internal */
+    </style>
+
+    <link rel="stylesheet" href="style.css"> <!-- external -->
+
+    <p style="color:red;">Teks ini berwarna merah</p> <!-- inline -->
+
