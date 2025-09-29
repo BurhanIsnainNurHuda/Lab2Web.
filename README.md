@@ -52,4 +52,23 @@ Contoh:
     <link rel="stylesheet" href="style.css"> <!-- external -->
 
     <p style="color:red;">Teks ini berwarna merah</p> <!-- inline -->
+    Yang tampil di browser: merah (inline).
+
+4. Jika Elemen Punya ID & Class
+
+Selector ID lebih spesifik dibanding Class.
+
+Jika ada style berbeda, style ID akan menang.
+
+Contoh:
+
+    <style>
+    .text-paragraf { color: blue; } /* class */
+    #paragraf-1 { color: red; }     /* ID */
+    </style>
+
+    <p id="paragraf-1" class="text-paragraf">Teks ini?</p>
+    Hasilnya: merah karena ID #paragraf-1 menang.
+
+
 
