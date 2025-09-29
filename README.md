@@ -10,6 +10,11 @@ Di dalamnya terdapat file:
  `index.html` → struktur HTML
  `style.css` → styling CSS
  Screenshot hasil website
+ 
+ Deskripsi Singkat
+
+Project ini adalah hasil praktikum Pemrograman Web 1 pada pertemuan Lab2Web. Website ini memakai tema `Blockchain & Crypto` dengan gaya dark aesthetic agar lebih modern. Tugas ini juga melatih penggunaan `HTML, CSS eksternal, ID vs Class selector,` serta memahami prioritas `CSS (inline, internal, eksternal).`
+Screenshot hasil website
 
  Jawaban Pertanyaan & Tugas
 
