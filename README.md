@@ -134,6 +134,36 @@ Tiap coin diberi `<li>` yang nanti warnanya diatur lewat CSS sesuai identitas ma
 
 `<footer>` berisi teks penutup dan sumber praktikum.
 
+# Penjelasan Kode CSS
+
+File `style.css` terdiri dari:
+
+1. Global Styles
+
+Background dark gradien (#121212 ke #1e1e1e).
+
+Font Arial supaya clean.
+
+Warna teks #d0d0d0 agar kontras tapi tetap lembut.
+
+2. Heading
+
+`<h1>` diberi warna biru-keabu-abuan (#b0c4de).
+
+Ada efek text-shadow untuk kesan glow lembut.
+
+3. #intro h1
+
+Dibedakan warnanya (ungu pastel) agar tidak sama dengan heading umum.
+
+Menunjukkan spesifikasi selector `#intro h1` hanya berlaku di dalam ID intro.
+
+4. Paragraf & ID
+
+`.text-paragraf` → warna teks ungu pucat.
+
+`#paragraf-1` → warna kuning tebal (ID lebih kuat daripada Class).
+
 
 ### Hasil Screenshot
 ![Gambar WhatsApp 2025-09-29 pukul 14 12 50_4211b0da](https://github.com/user-attachments/assets/fb2a8c87-4dc8-4ddc-9cdd-b57bc41b1283)
