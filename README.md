@@ -84,7 +84,69 @@ Contoh:
     <p id="paragraf-1" class="text-paragraf">Teks ini?</p>
     Hasilnya: merah karena ID #paragraf-1 menang.
 
-# Penjelasan Kode HTML
+# Code HTML
+
+    <!DOCTYPE html>
+    <html lang="id">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab2Web – Crypto Theme</title>
+
+  <!-- CSS Eksternal -->
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+  <!-- MOTIVATION QUOTE 1 -->
+    <div class="motivation-top">
+    <h2> NO RISK NO STORY </h2>
+    </div>
+
+    <header>
+    <h1> Blockchain & Crypto Dashboard</h1>
+    </header>
+
+    <div id="intro">
+    <h1>Welcome to Crypto World</h1>
+    <p class="text-paragraf">Website praktikum CSS bertema blockchain & crypto.</p>
+    </div>
+
+    <section class="crypto-section">
+    <h2>🔥 Daftar Top Coins</h2>
+    <ul>
+      <li>Bitcoin (BTC)</li>
+      <li>Ethereum (ETH)</li>
+      <li>Solana (SOL)</li>
+      <li>Binance Coin (BNB)</li>
+      <li>XRP (XRP)</li>
+    </ul>
+    </section>
+
+  <!-- Inline CSS contoh -->
+    <p style="color: orange; font-size:20px; text-align:center;">
+    Harga Crypto naik turun setiap detik HIGH VOLATIL!!!
+    </p>
+
+  <!-- ID & Class contoh -->
+    <p id="paragraf-1" class="text-paragraf">
+    Paragraf ini punya ID dan Class bertema crypto 🌐
+    </p>
+
+  <!-- MOTIVATION QUOTE 2 -->
+    <div class="motivation-bottom">
+    <h2> FAILURE IS NOT THE OPPOSITE OF SUCCESS: IT'S PART OF SUCCESS </h2>
+    </div>
+
+    <footer>
+    <p> 2025 CryptoLab – Praktikum Lab2Web - Mata Kuliah Pemograman Web 1</p>
+    </footer>
+
+    </body>
+    </html>
+
+
+# Penjelasan Code HTML
 
 File `index.html` terdiri dari:
 
