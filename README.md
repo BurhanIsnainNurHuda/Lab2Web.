@@ -98,3 +98,7 @@ Warna Coin: tiap coin punya warna sesuai identitas aslinya.
 
 Hover Effect: efek zoom untuk interaksi pengguna.
 
+### Hasil Screenshot
+![Gambar WhatsApp 2025-09-29 pukul 14 12 50_4211b0da](https://github.com/user-attachments/assets/fb2a8c87-4dc8-4ddc-9cdd-b57bc41b1283)
+
+
