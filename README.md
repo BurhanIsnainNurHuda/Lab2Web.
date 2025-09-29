@@ -70,7 +70,7 @@ Contoh:
     <p id="paragraf-1" class="text-paragraf">Teks ini?</p>
     Hasilnya: merah karena ID #paragraf-1 menang.
 
-Penjelasan HTML
+### Penjelasan HTML
 
 Header: menampilkan judul website.
 
@@ -83,4 +83,18 @@ Crypto Section: daftar coin (BTC, ETH, SOL, BNB, XRP) ditampilkan dalam <ul>.
 Inline CSS: contoh penggunaan style langsung pada tag.
 
 Footer: copyright.
+
+### Penjelasan CSS
+
+Body: dark aesthetic dengan gradient abu gelap.
+
+Header & Footer: background gelap dengan shadow ringan.
+
+Motivation Quotes: blok dengan warna aksen hijau olive dan pink lembut.
+
+Crypto Section: kotak dengan box-shadow dan border-radius.
+
+Warna Coin: tiap coin punya warna sesuai identitas aslinya.
+
+Hover Effect: efek zoom untuk interaksi pengguna.
 
