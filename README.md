@@ -164,6 +164,44 @@ Menunjukkan spesifikasi selector `#intro h1` hanya berlaku di dalam ID intro.
 
 `#paragraf-1` → warna kuning tebal (ID lebih kuat daripada Class).
 
+5. Header
+
+Background #1b1b1b (dark grey), padding, border-radius, shadow ringan.
+
+6. Motivation Top & Bottom
+
+Background #2a2a2a + border kiri/kanan hijau olive supaya lebih estetik.
+
+Teks dibuat bold dan rata tengah.
+
+7. Crypto Section
+
+Kotak konten gelap (#1b1b1b) + shadow.
+
+Judul coin diberi warna sama seperti heading umum.
+
+`<li>` coin disusun inline-block agar berjajar horizontal.
+
+Setiap coin diberi background sesuai identitas:
+
+BTC → Orange
+
+ETH → Gray
+
+SOL → Purple
+
+BNB → Yellow (teks hitam supaya kontras)
+
+XRP → Black
+
+Efek hover: sedikit scale-up + opacity 0.9 agar interaktif.
+
+8. Footer
+
+Background gelap dengan teks abu-abu (#999).
+
+Border-radius + shadow ringan agar sesuai tema dark aesthetic.
+
 
 ### Hasil Screenshot
 ![Gambar WhatsApp 2025-09-29 pukul 14 12 50_4211b0da](https://github.com/user-attachments/assets/fb2a8c87-4dc8-4ddc-9cdd-b57bc41b1283)
