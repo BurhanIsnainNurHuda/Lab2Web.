@@ -23,12 +23,19 @@ Kami mengubah beberapa properti CSS berdasarkan **CSS Cheat Sheet**:
  Mengganti warna background menjadi **dark aesthetic** (linear-gradient).
  Menambahkan **box-shadow** dan **border-radius** pada elemen.
  Menambahkan **hover effect** pada list coin.
+ 
  Mengubah warna coin sesuai identitas aslinya:
+ 
    BTC → Orange
+   
    ETH → Abu-Abu
+   
    SOL → Ungu
+   
    BNB → Kuning (text hitam)
+   
    XRP → Hitam
+   
  Menambahkan **motivational quotes** di atas dan bawah konten.
 
 ### 2. Perbedaan `h1 {…}` dengan `#intro h1 {…}`
