@@ -31,11 +31,11 @@ Kami mengubah beberapa properti CSS berdasarkan **CSS Cheat Sheet**:
  `#intro h1 {…}` → Hanya mengatur `<h1>` yang berada di dalam elemen dengan **id="intro"**.  
 Contoh:
 
-`<h1>Ini kena style umum</h1>`
-`<div id="intro">
-` `<h1>Ini kena style khusus intro</h1>```
-``</div>`
-`Jadi selector #intro h1 lebih spesifik dibanding h1.`
+    <h1>Ini kena style umum</h1>
+    <div id="intro">
+    <h1>Ini kena style khusus intro</h1>```
+    </div>
+    Jadi selector #intro h1 lebih spesifik dibanding h1.
 
 ### 3. Prioritas CSS (Inline, Internal, Eksternal)
 
