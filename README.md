@@ -70,5 +70,12 @@ Contoh:
     <p id="paragraf-1" class="text-paragraf">Teks ini?</p>
     Hasilnya: merah karena ID #paragraf-1 menang.
 
+Penjelasan HTML
 
+Header: menampilkan judul website.
+Motivation Quotes: dua bar berisi kalimat motivasi.
+Intro Section: sambutan dengan id="intro".
+Crypto Section: daftar coin (BTC, ETH, SOL, BNB, XRP) ditampilkan dalam <ul>.
+Inline CSS: contoh penggunaan style langsung pada tag.
+Footer: copyright.
 
