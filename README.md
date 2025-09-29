@@ -42,6 +42,7 @@ Contoh:
 Urutan prioritas: Inline CSS > Internal CSS > External CSS
 
 Artinya jika ada style yang sama, inline CSS akan menang.
+
 Contoh:
 
     <style>
