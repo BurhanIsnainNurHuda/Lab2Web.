@@ -37,3 +37,12 @@ Contoh:
   <h1>Ini kena style khusus intro</h1>
 </div>
 Jadi selector #intro h1 lebih spesifik dibanding h1.
+
+```html
+
+3. Prioritas CSS (Inline, Internal, Eksternal)
+
+Urutan prioritas: Inline CSS > Internal CSS > External CSS
+
+Artinya jika ada style yang sama, inline CSS akan menang.
+Contoh:
