@@ -7,28 +7,28 @@
 
 Repositori ini adalah hasil praktikum Pemrograman Web 1 tentang **CSS dasar** dengan tema **Blockchain & Crypto**.  
 Di dalamnya terdapat file:
-- `index.html` → struktur HTML
-- `style.css` → styling CSS
-- Screenshot hasil website
+ `index.html` → struktur HTML
+ `style.css` → styling CSS
+ Screenshot hasil website
 
  Jawaban Pertanyaan & Tugas
 
 ### 1. Eksperimen Mengubah dan Menambah Properti CSS
 Kami mengubah beberapa properti CSS berdasarkan **CSS Cheat Sheet**:
-- Mengganti warna background menjadi **dark aesthetic** (linear-gradient).
-- Menambahkan **box-shadow** dan **border-radius** pada elemen.
-- Menambahkan **hover effect** pada list coin.
-- Mengubah warna coin sesuai identitas aslinya:
-  - BTC → Orange
-  - ETH → Abu-Abu
-  - SOL → Ungu
-  - BNB → Kuning (text hitam)
-  - XRP → Hitam
-- Menambahkan **motivational quotes** di atas dan bawah konten.
+ Mengganti warna background menjadi **dark aesthetic** (linear-gradient).
+ Menambahkan **box-shadow** dan **border-radius** pada elemen.
+ Menambahkan **hover effect** pada list coin.
+ Mengubah warna coin sesuai identitas aslinya:
+   BTC → Orange
+   ETH → Abu-Abu
+   SOL → Ungu
+   BNB → Kuning (text hitam)
+   XRP → Hitam
+ Menambahkan **motivational quotes** di atas dan bawah konten.
 
 ### 2. Perbedaan `h1 {…}` dengan `#intro h1 {…}`
-- `h1 {…}` → Mengatur semua elemen `<h1>` di seluruh halaman HTML.
-- `#intro h1 {…}` → Hanya mengatur `<h1>` yang berada di dalam elemen dengan **id="intro"**.  
+ `h1 {…}` → Mengatur semua elemen `<h1>` di seluruh halaman HTML.
+ `#intro h1 {…}` → Hanya mengatur `<h1>` yang berada di dalam elemen dengan **id="intro"**.  
 Contoh:
 ```html
 <h1>Ini kena style umum</h1>
