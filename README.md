@@ -39,7 +39,9 @@ Kami mengubah beberapa properti CSS berdasarkan **CSS Cheat Sheet**:
  Menambahkan **motivational quotes** di atas dan bawah konten.
 
 ### 2. Perbedaan `h1 {…}` dengan `#intro h1 {…}`
+
  `h1 {…}` → Mengatur semua elemen `<h1>` di seluruh halaman HTML.
+ 
  `#intro h1 {…}` → Hanya mengatur `<h1>` yang berada di dalam elemen dengan **id="intro"**.  
 Contoh:
 
@@ -82,33 +84,56 @@ Contoh:
     <p id="paragraf-1" class="text-paragraf">Teks ini?</p>
     Hasilnya: merah karena ID #paragraf-1 menang.
 
-### Penjelasan HTML
+# Penjelasan Kode HTML
 
-Header: menampilkan judul website.
+File `index.html` terdiri dari:
 
-Motivation Quotes: dua bar berisi kalimat motivasi.
+ 1. Deklarasi HTML5 dan `<head>`
 
-Intro Section: sambutan dengan id="intro".
+Menentukan charset UTF-8.
 
-Crypto Section: daftar coin (BTC, ETH, SOL, BNB, XRP) ditampilkan dalam <ul>.
+Mengatur viewport supaya responsif.
 
-Inline CSS: contoh penggunaan style langsung pada tag.
+Memanggil file CSS eksternal `style.css.`
 
-Footer: copyright.
+2. Bagian Motivasi Atas (NO RISK NO STORY)
 
-### Penjelasan CSS
+`<div class="motivation-top">` digunakan untuk menampilkan quote motivasi di bagian atas halaman.
 
-Body: dark aesthetic dengan gradient abu gelap.
+3. Header
 
-Header & Footer: background gelap dengan shadow ringan.
+`<header>` berisi judul utama “🚀 Blockchain & Crypto Dashboard”.
 
-Motivation Quotes: blok dengan warna aksen hijau olive dan pink lembut.
+Dibuat agar terlihat jelas dan berada di tengah.
 
-Crypto Section: kotak dengan box-shadow dan border-radius.
+4. Intro Section
 
-Warna Coin: tiap coin punya warna sesuai identitas aslinya.
+`<div id="intro">` menampilkan heading kedua dan paragraf pembuka.
 
-Hover Effect: efek zoom untuk interaksi pengguna.
+Menggunakan ID supaya styling-nya lebih spesifik dibanding selector umum.
+
+5. Crypto Section
+
+`<section class="crypto-section">` berisi daftar coin teratas: BTC, ETH, SOL, BNB, XRP.
+
+Tiap coin diberi `<li>` yang nanti warnanya diatur lewat CSS sesuai identitas masing-masing.
+
+6. Inline CSS Contoh
+
+`<p style="...">` menunjukkan contoh pemakaian inline CSS agar kita bisa membandingkan prioritasnya.
+
+7. ID & Class Contoh
+
+`<p id="paragraf-1" class="text-paragraf">` sengaja diberi ID dan Class sekaligus supaya kita bisa lihat CSS mana yang lebih kuat.
+
+8. Bagian Motivasi Bawah
+
+`<div class="motivation-bottom">` menampilkan quote kedua: “FAILURE IS NOT THE OPPOSITE OF SUCCESS: IT'S PART OF SUCCESS”.
+
+9. Footer
+
+`<footer>` berisi teks penutup dan sumber praktikum.
+
 
 ### Hasil Screenshot
 ![Gambar WhatsApp 2025-09-29 pukul 14 12 50_4211b0da](https://github.com/user-attachments/assets/fb2a8c87-4dc8-4ddc-9cdd-b57bc41b1283)
