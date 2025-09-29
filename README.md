@@ -33,7 +33,7 @@ Contoh:
 
     <h1>Ini kena style umum</h1>
     <div id="intro">
-    <h1>Ini kena style khusus intro</h1>```
+    <h1>Ini kena style khusus intro</h1>
     </div>
     Jadi selector #intro h1 lebih spesifik dibanding h1.
 
