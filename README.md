@@ -124,7 +124,7 @@ Contoh:
     </p>
   <!-- ID & Class contoh -->
     <p id="paragraf-1" class="text-paragraf">
-    Paragraf ini punya ID dan Class bertema crypto 🌐
+    Paragraf ini punya ID dan Class bertema crypto 
     </p>
   <!-- MOTIVATION QUOTE 2 -->
     <div class="motivation-bottom">
@@ -187,7 +187,168 @@ Tiap coin diberi `<li>` yang nanti warnanya diatur lewat CSS sesuai identitas ma
 
 `<footer>` berisi teks penutup dan sumber praktikum.
 
-# Penjelasan Kode CSS
+# Code CSS
+
+    /* -------------------
+    GLOBAL STYLES (Dark Aesthetic)
+     ------------------- */
+    body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #121212, #1e1e1e);
+    color: #d0d0d0;
+    padding: 20px;
+    margin: 0;
+    }
+
+    /* Heading umum */
+    h1 {
+    color: #b0c4de; /* light steel blue */
+    text-align: center;
+    text-shadow: 0 0 6px rgba(176,196,222,0.3);
+    font-family: 'Courier New', monospace;
+    }
+
+    /* Intro H1 */
+    #intro h1 {
+    color: #9aa7ff; /* soft blue-purple */
+    text-shadow: 0 0 6px rgba(154,167,255,0.3);
+    }
+
+    /* Paragraf text */
+    .text-paragraf {
+    color: #c5c5c5;
+    }
+
+    /* ID spesifik */
+    #paragraf-1 {
+    color: #d6b977; /* muted gold */
+    font-weight: bold;
+    }
+
+    /* -------------------
+    HEADER
+    ------------------- */
+    header {
+    background-color: #1b1b1b;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    }
+
+    /* -------------------
+    MOTIVATION QUOTES
+
+    .motivation-top h2 {
+     margin: 0;
+     color: #d0d0d0;
+    font-weight: bold;
+    font-size: 22px;
+    }
+
+    .motivation-bottom {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+     padding: 15px;
+    background: #2a2a2a;
+    border-left: 6px solid #6b8e23;
+    border-radius: 10px;
+    }
+
+     .motivation-bottom h2 {
+    margin: 0;
+    color: #d0d0d0;
+    font-weight: bold;
+    font-size: 20px;
+    }
+
+    /* -------------------
+     CRYPTO SECTION
+    ------------------- */
+    .crypto-section {
+     background-color: #1b1b1b;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 15px;
+    width: 70%;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    }
+
+    .crypto-section h2 {
+    text-align: center;
+    color: #b0c4de;
+    text-shadow: 0 0 6px rgba(176,196,222,0.3);
+    }
+
+     .crypto-section ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    }
+
+    /* Base style for all coin list */
+    .crypto-section li {
+     padding: 10px;
+     margin: 5px;
+    border-radius: 8px;
+    display: inline-block;
+    width: 140px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    }
+
+    /* Warna spesifik setiap coin (TIDAK DIUBAH) */
+    .crypto-section li:nth-child(1) {
+      background-color: orange; /* BTC */
+    box-shadow: 0 0 10px orange;
+    }
+
+    .crypto-section li:nth-child(2) {
+    background-color: gray; /* ETH */
+    box-shadow: 0 0 10px gray;
+    }
+
+    .crypto-section li:nth-child(3) {
+      background-color: purple; /* SOL */
+     }
+
+    .crypto-section li:nth-child(4) {
+     background-color: yellow; /* BNB */
+     color: black;
+    box-shadow: 0 0 10px yellow;
+    }
+
+    .crypto-section li:nth-child(5) {
+     background-color: black; /* XRP */
+    box-shadow: 0 0 10px #444;
+    }
+
+    /* Efek hover */
+    .crypto-section li:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.3s;
+    }
+
+     -------------------
+     FOOTER
+    ------------------- */
+    footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 15px;
+     background-color: #1b1b1b;
+       border-radius: 10px;
+    font-size: 14px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    color: #999;
+     }
+
+
+# Penjelasan Code CSS
 
 File `style.css` terdiri dari:
 
