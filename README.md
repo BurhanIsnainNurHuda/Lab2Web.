@@ -1,4 +1,4 @@
-# Lab2Web.
+# Praktikum Lab2Web.
 
     Nama: Burhan Isnain Nur Huda 
     NIM: 312410266 
